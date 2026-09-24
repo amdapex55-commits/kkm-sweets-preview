@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KKM Sweets &amp; Nimco Center — Karachi, since 1948</title>
+<meta name="description" content="Traditional Memon mithai, fresh nimco and crispy chips, hand-made every morning in Jodia Bazar, Karachi. Delivered across Pakistan.">
+<link rel="icon" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js');
+if(location.search.includes('static'))document.documentElement.classList.add('static');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- ══ Ticker ═══════════════════════════════════════════════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__row" id="tickerRow"></div>
+</div>
+
+<!-- ══ Masthead ═════════════════════════════════════════════════ -->
+<header class="mast" id="mast">
+  <div class="rule rule--top"></div>
+  <div class="wrap mast__bar">
+
+    <a class="mark" href="#top">
+      <img src="assets/logo.svg" alt="" width="52" height="52">
+      <span class="mark__txt">
+        <b>KKM</b>
+        <i>Sweets &amp; Nimco Center · Karachi · est. 1948</i>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#counter">The Counter</a>
+      <a href="#kinds">Kinds</a>
+      <a href="#house">The House</a>
+      <a href="#orders">Bulk Orders</a>
+      <a href="#ask">Ask</a>
+    </nav>
+
+    <div class="mast__tools">
+      <a class="tel" href="tel:+923221835325"><span>0322</span> 1835325</a>
+      <button class="tag-btn" id="cartBtn" aria-label="Open order list">
+        <span class="tag-btn__n" id="cartCount">0</span>
+        <span class="tag-btn__l">Order</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+        <i></i><i></i><i></i>
+      </button>
+    </div>
+  </div>
+  <div class="rule"></div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__panel">
+    <button class="drawer__x" id="drawerClose" aria-label="Close menu">Close</button>
+    <nav aria-label="Mobile">
+      <a href="#counter"><span>01</span> The Counter</a>
+      <a href="#kinds"><span>02</span> Kinds</a>
+      <a href="#house"><span>03</span> The House</a>
+      <a href="#orders"><span>04</span> Bulk Orders</a>
+      <a href="#ask"><span>05</span> Ask</a>
+    </nav>
+    <a class="drawer__tel" href="tel:+923221835325">0322 &mdash; 1835325</a>
+    <p class="urdu">خالص · تازہ · روایتی</p>
+  </div>
+</div>
+
+<main id="main"><span id="top"></span>
+
+<!-- ══ 01 · Hero ════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="wrap hero__grid">
+
+    <div class="hero__left">
+      <p class="urdu hero__urdu">مٹھائی · نمکو · چپس</p>
+      <h1 class="hero__h" id="heroH">Mithai the way<br>Jodia Bazar<br><em>has always</em> made it.</h1>
+      <p class="hero__lede" id="heroLede">Three generations of Memon recipes, cooked in small batches before the shop opens and sent out the same day.</p>
+      <div class="hero__act">
+        <a class="btn" href="#counter">See the counter</a>
+        <a class="link-arw" href="#house">Read our story <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <dl class="facts">
+        <div><dt>Est.</dt><dd>1948</dd></div>
+        <div><dt>Batches</dt><dd>Daily, before 7am</dd></div>
+        <div><dt>Shipping</dt><dd>All Pakistan</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero__right">
+      <div class="arch" id="heroArch">
+        <img src="assets/cats/Sweets-Cat.jpeg" alt="A tray of traditional Memon mithai" id="heroImg" fetchpriority="high">
+        <span class="arch__line" aria-hidden="true"></span>
+      </div>
+      <div class="seal" aria-hidden="true">
+        <span>Hand<br>made</span>
+      </div>
+      <div class="hero__nav">
+        <button id="heroPrev" aria-label="Previous">&larr;</button>
+        <span class="hero__num"><b id="heroNum">01</b> / 03</span>
+        <button id="heroNext" aria-label="Next">&rarr;</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ Strip ════════════════════════════════════════════════════ -->
+<div class="strip">
+  <div class="wrap strip__in">
+    <span>Cooked fresh daily</span>
+    <span class="dia" aria-hidden="true"></span>
+    <span>Cash on delivery</span>
+    <span class="dia" aria-hidden="true"></span>
+    <span>Free shipping over ₨3,000</span>
+    <span class="dia" aria-hidden="true"></span>
+    <span>Wedding &amp; Eid trays</span>
+  </div>
+</div>
+
+<!-- ══ 02 · Kinds ═══════════════════════════════════════════════ -->
+<section class="sec" id="kinds">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="shead__n">02</span>
+      <h2>What we make</h2>
+      <span class="shead__rule"></span>
+      <p class="shead__note">Three counters, one karkhana.</p>
+    </div>
+
+    <div class="kinds">
+      <a class="kind reveal" href="#counter" data-filter="Sweets">
+        <span class="kind__n">i</span>
+        <div class="arch arch--sm"><img src="assets/cats/Sweets-Cat.jpeg" alt="Traditional sweets" loading="lazy"></div>
+        <h3>Traditional <em>Mithai</em></h3>
+        <p>Malai khaja, habshi halwa, patisa and the mix box — the recipes the shop was built on.</p>
+        <span class="kind__go">Go to counter <i aria-hidden="true">&rarr;</i></span>
+      </a>
+      <a class="kind reveal" href="#counter" data-filter="Nimco">
+        <span class="kind__n">ii</span>
+        <div class="arch arch--sm"><img src="assets/cats/Nimco-Cat.jpeg" alt="Fresh nimco" loading="lazy"></div>
+        <h3>Fresh <em>Nimco</em></h3>
+        <p>Chewra, daal moong, bareek gathiya. Fried each morning, bagged while still warm.</p>
+        <span class="kind__go">Go to counter <i aria-hidden="true">&rarr;</i></span>
+      </a>
+      <a class="kind reveal" href="#counter" data-filter="Chips">
+        <span class="kind__n">iii</span>
+        <div class="arch arch--sm"><img src="assets/cats/Chips-Cat.png" alt="Crispy chips" loading="lazy"></div>
+        <h3>Crispy <em>Chips</em></h3>
+        <p>Crinkle, masala and fish papar — thin, loud and packed the same hour they are cut.</p>
+        <span class="kind__go">Go to counter <i aria-hidden="true">&rarr;</i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 03 · Counter ═════════════════════════════════════════════ -->
+<section class="sec sec--paper2" id="counter">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="shead__n">03</span>
+      <h2>The counter</h2>
+      <span class="shead__rule"></span>
+      <p class="shead__note">Prices by weight. Everything below was made today.</p>
+    </div>
+
+    <div class="counter__bar">
+      <div class="tabs" id="filters" role="tablist" aria-label="Filter the counter">
+        <button class="tab is-on" data-cat="All" role="tab" aria-selected="true">Everything</button>
+        <button class="tab" data-cat="Sweets" role="tab" aria-selected="false">Mithai</button>
+        <button class="tab" data-cat="Nimco" role="tab" aria-selected="false">Nimco</button>
+        <button class="tab" data-cat="Chips" role="tab" aria-selected="false">Chips</button>
+      </div>
+      <label class="find">
+        <span class="sr">Search the counter</span>
+        <input type="search" id="searchInput" placeholder="Search…">
+      </label>
+    </div>
+
+    <div class="menu" id="grid"></div>
+    <p class="menu__empty" id="gridEmpty" hidden>Nothing on the counter matches that.</p>
+  </div>
+</section>
+
+<!-- ══ Marquee ══════════════════════════════════════════════════ -->
+<div class="marq" aria-hidden="true"><div class="marq__row" id="marqRow"></div></div>
+
+<!-- ══ 04 · House ═══════════════════════════════════════════════ -->
+<section class="house" id="house">
+  <div class="wrap house__grid">
+    <div class="house__media reveal">
+      <div class="arch arch--tall"><img src="assets/banners/story-image.jpg" alt="The KKM karkhana" loading="lazy"></div>
+      <span class="stamp" aria-hidden="true">Since<br><b>1948</b></span>
+    </div>
+    <div class="house__copy reveal">
+      <span class="shead__n shead__n--light">04</span>
+      <h2>A karkhana, not a factory.</h2>
+      <p>KKM has stood on Daraya Lal Street in Jodia Bazar since 1948. The same family, the same copper pans, the same Memon recipes carried down by people rather than paper.</p>
+      <p>Nothing here is made ahead. The halwai starts before dawn, the trays go out to the counter by ten, and whatever is left at closing does not come back the next day.</p>
+      <ul class="ledger">
+        <li><b>01</b><span>Ingredients bought whole and ground in-house — no pre-mix.</span></li>
+        <li><b>02</b><span>Small batches, cooked to colour and smell, not to a timer.</span></li>
+        <li><b>03</b><span>Sealed and boxed by hand, the same morning it is sold.</span></li>
+        <li><b>04</b><span>Karachi same day; other cities in two to three working days.</span></li>
+      </ul>
+      <a class="btn btn--light" href="#orders">Order a tray</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 05 · Notes ═══════════════════════════════════════════════ -->
+<section class="sec" id="notes">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="shead__n">05</span>
+      <h2>Notes from customers</h2>
+      <span class="shead__rule"></span>
+    </div>
+    <div class="notes">
+      <figure class="note reveal">
+        <blockquote>The sweets were incredibly fresh and full of authentic traditional flavour. The packaging was neat, and delivery was right on time.</blockquote>
+        <figcaption>Ahmed Rehman <i>— Karachi</i></figcaption>
+      </figure>
+      <figure class="note reveal">
+        <blockquote>I ordered for a family event and everyone asked where it came from. Truly authentic Memon flavours.</blockquote>
+        <figcaption>Bisma Khalid <i>— Hyderabad</i></figcaption>
+      </figure>
+      <figure class="note reveal">
+        <blockquote>Excellent quality, premium taste and hygienic packing. The mix box has become our Eid standard.</blockquote>
+        <figcaption>Alina Mehmood <i>— Lahore</i></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 06 · Orders ══════════════════════════════════════════════ -->
+<section class="orders" id="orders">
+  <div class="wrap orders__grid">
+    <div class="orders__copy reveal">
+      <span class="shead__n shead__n--light">06</span>
+      <h2>Weddings, Eid<br>and everything<br>in between.</h2>
+      <p>Trays, gift boxes and bulk nimco for mehndis, corporate Eid lists and family gatherings. Tell us the headcount and the date — we will quote the same day.</p>
+      <ul class="orders__list">
+        <li>Mehndi &amp; wedding trays</li>
+        <li>Corporate Eid boxes</li>
+        <li>Custom mithai assortments</li>
+        <li>Wholesale nimco &amp; raw material</li>
+      </ul>
+    </div>
+    <a class="ticket reveal" href="tel:+923221835325">
+      <span class="ticket__k">Call the shop</span>
+      <b class="ticket__n">0322<br>1835325</b>
+      <span class="ticket__h">Mon–Sat 10am – 9pm<br>Sunday 10am – 3pm</span>
+      <span class="ticket__addr">75 Daraya Lal St, Jodia Bazar,<br>Napier Quarter, Karachi</span>
+    </a>
+  </div>
+</section>
+
+<!-- ══ 07 · Ask ═════════════════════════════════════════════════ -->
+<section class="sec sec--paper2" id="ask">
+  <div class="wrap ask__grid">
+    <div class="shead shead--stack reveal">
+      <span class="shead__n">07</span>
+      <h2>Ask</h2>
+      <p class="shead__note">Still stuck? <a href="tel:+923221835325">Call 0322&nbsp;1835325</a> — someone in the shop will answer.</p>
+    </div>
+    <div class="qa" id="acc"></div>
+  </div>
+</section>
+</main>
+
+<!-- ══ Footer ═══════════════════════════════════════════════════ -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <img src="assets/logo.svg" alt="KKM Sweets &amp; Nimco" width="88" height="88">
+      <p class="urdu">کے کے ایم · مٹھائی اور نمکو</p>
+      <p>Traditional Memon sweets, fresh nimco and premium snacks — made with the same hands, in the same shop, since 1948.</p>
+    </div>
+    <div class="foot__col">
+      <h3>Shop</h3>
+      <a href="#counter">The counter</a>
+      <a href="#kinds">Mithai</a>
+      <a href="#kinds">Nimco</a>
+      <a href="#kinds">Chips</a>
+      <a href="#orders">Bulk &amp; events</a>
+    </div>
+    <div class="foot__col">
+      <h3>Visit</h3>
+      <p>75 Daraya Lal Street,<br>Jodia Bazar, Napier Quarter,<br>Karachi</p>
+      <p>Mon–Sat 10am – 9pm<br>Sunday 10am – 3pm</p>
+    </div>
+    <div class="foot__col">
+      <h3>Reach us</h3>
+      <a href="tel:+923221835325">+92 322 1835325</a>
+      <a href="mailto:info@kkmofficial.com">info@kkmofficial.com</a>
+      <div class="foot__soc">
+        <a href="#top">WhatsApp</a>
+        <a href="#top">Instagram</a>
+        <a href="#top">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot__word" aria-hidden="true">KKM</div>
+  <div class="foot__bar">
+    <div class="wrap foot__bar-in">
+      <span>© 2026 KKM Sweets &amp; Nimco Center</span>
+      <span><a href="#ask">Privacy</a> · <a href="#ask">Returns</a> · <a href="#ask">Shipping</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ Order list ═══════════════════════════════════════════════ -->
+<div class="sheet" id="cart" hidden>
+  <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Your order">
+    <div class="sheet__head">
+      <h2>Your order</h2>
+      <button id="cartClose" aria-label="Close">Close</button>
+    </div>
+    <div class="sheet__body" id="cartBody"></div>
+    <div class="sheet__foot">
+      <div class="sheet__tot"><span>Subtotal</span><b id="cartTotal">₨0</b></div>
+      <button class="btn btn--full" id="checkout">Send order on WhatsApp</button>
+      <p class="sheet__note">Design prototype — no live checkout.</p>
+    </div>
+  </div>
+</div>
+
+<a class="wa" href="#orders" aria-label="Message the shop on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.9 7L4 20l1.1-4A8 8 0 1 1 20 12Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5"/></svg>
+</a>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
